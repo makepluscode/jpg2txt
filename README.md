@@ -1,4 +1,3 @@
-
 # 🧾 JPG to Text (OCR with Tesseract)
 
 This project extracts text from a receipt image using Python and Tesseract OCR.
@@ -14,7 +13,7 @@ This project extracts text from a receipt image using Python and Tesseract OCR.
    Example:
    ```python
    pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
-````
+   ```
 
 ---
 
@@ -39,8 +38,8 @@ Run the OCR script:
 python app.py
 ```
 
-* Make sure `./images/test.jpg` exists.
-* Extracted text will be printed to the console.
+* Make sure `./images/test.jpg` exists
+* Extracted text will be printed to the console
 
 ---
 
@@ -54,4 +53,4 @@ python app.py
 
 ## 📝 Notes
 
-* For Korean OCR, set `lang='kor'` and ensure the Korean language data is installed in Tesseract.
+* For Korean OCR, set `lang='kor'` and ensure the Korean language data is installed in Tesseract
